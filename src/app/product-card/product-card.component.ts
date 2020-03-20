@@ -7,13 +7,13 @@ import {ProductsService} from './../products.service'
   styleUrls: ['./product-card.component.scss']
 })
 export class ProductCardComponent implements OnInit {
-  products=[];
+  products;
 
   constructor(private service:ProductsService) { }
 
   ngOnInit() {
     this.service.getProducts().subscribe(data => {
-      this.products.push(data)
+      this.products=data
       console.log(this.products);
       
     })

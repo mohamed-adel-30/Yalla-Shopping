@@ -1,134 +1,158 @@
 {
     "user": {},
-    "categories": {
-        "phones": {
-            "sasmsung": [{
-                    "name": "samsung s20",
-                    "price": 15000,
-                    "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                },
-                {
-                    "name": "samsung s10",
-                    "price": 12000,
-                    "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                },
-                {
-                    "name": "samsung s9",
-                    "price": 11000,
-                    "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                },
-                {
-                    "name": "samsung note 10",
-                    "price": 15000,
-                    "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp"
-                },
-                {
-                    "name": "samsung note 9",
-                    "price": 10000,
-                    "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                },
-                {
-                    "name": "samsung A50",
-                    "price": 5000,
-                    "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                },
-                {
-                    "name": "samsung A70",
-                    "price": 7000,
-                    "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                }
+    "phones": [{
+            "name": "samsung s20",
+            "price": 15000,
+            "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/Qtrw7DQL/s20.jpg            ",
+            "imgs": [
+                "https://i.postimg.cc/Qtrw7DQL/s20.jpg                ",
+                "https://i.postimg.cc/3RC6Cq1k/s20Pink.jpg                "
             ],
-            "Apple": [{
-                    "name": "Iphone 11 pro",
-                    "price": 23000,
-                    "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                },
-
-                {
-                    "name": "Iphone max",
-                    "price": 15000,
-                    "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                },
-
-                {
-                    "name": "Iphone 8",
-                    "price": 10000,
-                    "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                },
-                {
-                    "name": "Iphone 6s",
-                    "price": 5000,
-                    "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                }
+            "brand": "samsung"
+        },
+        {
+            "name": "samsung s10",
+            "price": 12000,
+            "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/y8kM4v1G/s10-black.jpg            ",
+            "imgs": [
+                "https://i.postimg.cc/y8kM4v1G/s10-black.jpg                ",
+                "https://i.postimg.cc/bvn4dr2H/s10-blue.jpg                "
             ],
-            "xiaomi": [{
-                    "name": "readme note 8 pro ",
-                    "price": 5000,
-                    "desc": "ram 8 gb , memory 128 gb , camera 64 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                },
-                {
-                    "name": "readme note 8",
-                    "price": 4000,
-                    "desc": "ram 8 gb , memory 64 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                },
-                {
-                    "name": "readme note 7",
-                    "price": 3000,
-                    "desc": "ram 4 gb , memory 64 gb , camera 48 mp , front camera 24 mp",
-                    "imgs": [
-                        { "img1": "src/assets/s20.jpg" },
-                        { "img2": "src/assets/s20Pink.jpg" }
-                    ]
-                }
-            ]
+            "brand": "samsung"
+        },
+        {
+            "name": "samsung s9",
+            "price": 11000,
+            "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/d3sfW9N4/s9-black.jpg            ",
+            "imgs": [
+                "https://i.postimg.cc/d3sfW9N4/s9-black.jpg                ",
+                "https://i.postimg.cc/RVPkDjBf/s9-blue.jpg                "
+            ],
+            "brand": "samsung"
+        },
+        {
+            "name": "samsung note 10",
+            "price": 15000,
+            "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/ncc8Tn6p/note10-black.jpg            ",
+            "imgs": [
+                "https://i.postimg.cc/ncc8Tn6p/note10-black.jpg                ",
+                "https://i.postimg.cc/50ddmLMR/note10-pink.jpg                "
+            ],
+            "brand": "samsung"
+        },
+        {
+            "name": "samsung note 9",
+            "price": 10000,
+            "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/qvqTBpLj/n.jpg            ",
+            "imgs": [
+                "https://i.postimg.cc/qvqTBpLj/n.jpg                ",
+                "https://i.postimg.cc/vm6w9XCn/note9-blue.jpg"
+            ],
+            "brand": "samsung"
+        },
+        {
+            "name": "samsung A50",
+            "price": 5000,
+            "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/7YDP4vdW/a50-black.jpg            ",
+            "imgs": [
+                "https://i.postimg.cc/7YDP4vdW/a50-black.jpg  ",
+                "https://i.postimg.cc/ry5y7yn4/a50-blue.jpg                "
+            ],
+            "brand": "samsung"
+        },
+        {
+            "name": "samsung A70",
+            "price": 7000,
+            "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/Z5sJ6WRG/A70-black.jpg",
+            "imgs": [
+                "https://i.postimg.cc/Z5sJ6WRG/A70-black.jpg",
+                "https://i.postimg.cc/bvGpgqSs/a70-red.jpg                "
+            ],
+            "brand": "samsung"
+        },
+        {
+            "name": "Iphone 11 pro",
+            "price": 23000,
+            "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/prBHrT41/i-Phone-11-Pro-black.jpg",
+            "imgs": [
+                "https://i.postimg.cc/prBHrT41/i-Phone-11-Pro-black.jpg",
+                "https://i.postimg.cc/SQLqDTR7/i-Phone-11-Pro-white.jpg"
+            ],
+            "brand": "apple"
+        },
+        {
+            "name": "Iphone max",
+            "price": 15000,
+            "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/dt4FKh8h/iphone-xs-max-black.jpg",
+            "imgs": [
+                "https://i.postimg.cc/dt4FKh8h/iphone-xs-max-black.jpg",
+                "https://i.postimg.cc/jS1rLB3K/iphone-max-pink.jpg"
+            ],
+            "brand": "apple"
+        },
+        {
+            "name": "Iphone 8",
+            "price": 10000,
+            "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/nzBZ8Tkx/iphone8-black.jpg",
+            "imgs": [
+                "https://i.postimg.cc/nzBZ8Tkx/iphone8-black.jpg",
+                "https://i.postimg.cc/9022cT87/iphone8-white.jpg"
+            ],
+            "brand": "apple"
+        },
+        {
+            "name": "Iphone 6s",
+            "price": 5000,
+            "desc": "ram 8 gb , memory 256 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/1339gG90/iphone-6s-selver.jpg",
+            "imgs": [
+                "https://i.postimg.cc/1339gG90/iphone-6s-selver.jpg",
+                "https://i.postimg.cc/43rZFjpw/iphone-6s-pink.jpg"
+            ],
+            "brand": "apple"
+        },
+        {
+            "name": "readme note 8 pro ",
+            "price": 5000,
+            "desc": "ram 8 gb , memory 128 gb , camera 64 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/rm16ZsVF/redmi-8-pro-blue.jpg",
+            "imgs": [
+                "https://i.postimg.cc/rm16ZsVF/redmi-8-pro-blue.jpg",
+                "https://i.postimg.cc/sgqtV71g/redmi-8-pro-green.jpg"
+            ],
+            "brand": "xiaomi"
+        },
+        {
+            "name": "readme note 8",
+            "price": 4000,
+            "desc": "ram 8 gb , memory 64 gb , camera 48 mp , front camera 24 mp",
+            "img": "https://i.postimg.cc/sD0Lc7Y4/Xiaomi-Redmi-Note-8-blue.jpg",
+            "imgs": [
+                "https://i.postimg.cc/sD0Lc7Y4/Xiaomi-Redmi-Note-8-blue.jpg",
+                "https://i.postimg.cc/c1cyQvkF/redminote8-pink.jpg"
+            ],
+            "brand": "xiaomi"
+        },
+        {
+            "name": "readme note 7",
+            "price": 3000,
+            "desc": "ram 4 gb , memory 64 gb , camera 48 mp , front camera 24 mp",
+            "img": "src/assets/s20.jpg",
+            "imgs": [
+                "src/assets/s20.jpg",
+                "src/assets/s20Pink.jpg"
+            ],
+            "brand": "xiaomi"
         }
-    }
+    ]
 }
