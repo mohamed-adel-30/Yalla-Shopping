@@ -1,14 +1,16 @@
 <div class="container">
     <div class="row">
-        <div class="col-3" *ngFor="let pro of products">
-            <div class="card">
-                <img class="card-img-top" src="{{pro.img}}" alt="">
-                <div class="card-body">
-                    <h4 class="card-title">{{pro.name}}</h4>
-                    <p class="card-text">{{pro.desc}}</p>
-                    <p class="card-text">{{pro.price}}</p>
-                    <button>Add</button>
-                </div>
+        <div class="col-12 col-md-6 col-lg-3" *ngFor="let pro of products">
+            <div class="card my-2">
+                <a routerLink="/product/{{pro.id}}">
+                    <img class="card-img-top" src="{{pro.img}}" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">{{pro.name}}</h4>
+                        <p class="card-text">{{pro.desc}}</p>
+                        <p class="card-text">{{pro.price}}</p>
+                    </div>
+                </a>
+                <button (click)="addToCard(pro.id)">Add <span>{{counter}}</span></button>
             </div>
         </div>
     </div>

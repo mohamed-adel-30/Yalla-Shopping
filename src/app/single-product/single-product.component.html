@@ -1,0 +1,24 @@
+<div class="container py-5" *ngIf='prod'>
+    <div class="row">
+        <div class="col-5">
+            <img src="{{prod.img}}">
+        </div>
+        <div class="col-7">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">{{prod.name}}</h4>
+                    <p class="card-text">{{prod.desc}}</p>
+
+                    <h5>{{prod.price}}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row py-3">
+
+        <div class="col-6 gallery" *ngFor='let img of prod.imgs'>
+            <img src="{{img}}" alt="">
+        </div>
+
+    </div>
+</div>

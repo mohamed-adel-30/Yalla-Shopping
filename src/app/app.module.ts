@@ -15,6 +15,7 @@ import { PaymentComponent } from './payment/payment.component';
 import { SearchPipe } from './search.pipe';
 import { FilterPipe } from './filter.pipe';
 import { ActivatedRoute } from '@angular/router';
+import { SingleProductComponent } from './single-product/single-product.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ActivatedRoute } from '@angular/router';
     PaymentComponent,
     SearchPipe,
     FilterPipe,
+    SingleProductComponent,
     
   ],
   imports: [

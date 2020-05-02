@@ -1,10 +1,10 @@
 <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"><img class="" src="./../../assets/logo.png" alt=""></a>
+    <a (click)="onClick()" class="navbar-brand" href="#"><img class="" src="./../../assets/logo.png" alt=""></a>
     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars text-light"></i></button>
-    <div class="collapse navbar-collapse" id="collapsibleNavId">
+    <div *ngIf="toggle" class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" (click)="onClick()" routerLink="/home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
@@ -22,7 +22,7 @@
             <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
         </form>
         <ul class="navbar-nav mt-2 mt-lg-0 ml-3">
-            <li class="nav-item"><a routerLink="/payment"><i class="fas fa-shopping-cart text-light"> 0 </i></a></li>
+            <li class="nav-item"><a (click)="onClick()" routerLink="/payment"><i class="fas fa-shopping-cart text-light"><span class="text-warning mx-3">{{counter}}</span></i></a></li>
         </ul>
     </div>
 </nav>
