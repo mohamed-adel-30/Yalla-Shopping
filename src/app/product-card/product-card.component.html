@@ -10,7 +10,12 @@
                         <p class="card-text">{{pro.price}}</p>
                     </div>
                 </a>
-                <button (click)="addToCard(pro.id)">Add <span>{{counter}}</span></button>
+                <div class="d-flex  justify-content-between">
+
+                    <button class="btn btn-success" (click)="addToCard(pro.id)">+</button>
+                    <span class="text-white">{{productGroups[pro.id]}}</span>
+                    <button class="btn btn-danger" (click)="removeFromCard(pro.id)">-</button>
+                </div>
             </div>
         </div>
     </div>

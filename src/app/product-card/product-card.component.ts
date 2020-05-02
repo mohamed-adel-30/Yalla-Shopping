@@ -24,21 +24,34 @@ export class ProductCardComponent implements OnInit {
   }
   addToCard(id) {
     this.service.getSingleProd(id).subscribe((data) => {
-      console.log(data);
 
       this.AllProducts.push(data);
       this.service.nextFun(this.AllProducts.length);
 
       localStorage.setItem("product", JSON.stringify(this.AllProducts));
-      for (let index = 0; index < this.AllProducts.length; index++) {
-        let item = this.AllProducts[index];
-        let pNum = item.id;
-        this.productGroups[pNum] = this.productGroups[pNum] || [];
-        this.productGroups[pNum].push(item);
 
-      }
-      console.log(this.productGroups);
-
+      this.calcCountOfPro(this.AllProducts)
     });
+
+
   }
+calcCountOfPro(Arr){
+
+  this.productGroups=Arr.reduce(function(acc,product){
+   if(acc[product.id]){
+     acc[product.id]+=1
+   }
+   else{
+     acc[product.id]=1;
+   }
+   return acc;
+  },{});
+  console.log(this.productGroups);
+}
+
+removeFromCard(id){
+this.AllProducts
+
+}
+
 }
